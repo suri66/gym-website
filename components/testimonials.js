@@ -1,5 +1,3 @@
-import NextImage from 'next/image';
-
 const Testimonials = (props) => {
   return (
     <div id='testimonials'>
@@ -14,7 +12,7 @@ const Testimonials = (props) => {
                   <div className='testimonial'>
                     <div className='testimonial-image'>
                       {' '}
-                      <NextImage src={d.img} alt='' />{' '}
+                      <img src={d.img} alt='' />{' '}
                     </div>
                     <div className='testimonial-content'>
                       <p>{d.text}&quot;</p>

@@ -206,7 +206,7 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 111%;
+  width: 100%;
   padding: 0;
   background: url(../img/460863.webp) center center no-repeat;
   background-color: #e5e5e5;
@@ -602,5 +602,11 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    width: 111%;
   }
 }

@@ -1,5 +1,3 @@
-import NextImage from 'next/image';
-
 const Team = (props) => {
   return (
     <div id='team' className='text-center'>
@@ -17,7 +15,7 @@ const Team = (props) => {
                 <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
                   <div className='thumbnail'>
                     {' '}
-                    <NextImage src={d.img} alt='Team' className='team-img' />
+                    <img src={d.img} alt='Team' className='team-img' />
                     <div className='caption'>
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>
