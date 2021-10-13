@@ -1,5 +1,3 @@
-import NextImage from 'next/image';
-
 const About = (props) => {
   return (
     <div id="about">

@@ -37,6 +37,8 @@ export default function Home({ landingPageData }) {
         <title>Golden Fitness Health Club</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#6372ff" />
+
         {/* <!-- Primary Meta Tags --> */}
         <meta name="title" content="Golden Fitness Health Club" />
         <meta

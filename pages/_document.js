@@ -17,19 +17,19 @@ class MyDocument extends Document {
 
           <link
             rel="shortcut icon"
-            href="img/favicon.ico"
+            href="/img/favicon.ico"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
           <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="img/apple-touch-icon-72x72.png"
+            href="/img/favicon.ico"
           />
           <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="img/apple-touch-icon-114x114.png"
+            href="/img/favicon.ico"
           />
 
           <link
@@ -40,8 +40,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Lato:400,700&display=optional"
             rel="stylesheet"
           />
-          <script async type="text/javascript" src="js/jquery.1.11.1.js"></script>
-          <script async type="text/javascript" src="js/bootstrap.js"></script>
+          <script async type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+          <script async type="text/javascript" src="/js/bootstrap.js"></script>
         </Head>
         <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
           <Main />
