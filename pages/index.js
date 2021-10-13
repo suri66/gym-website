@@ -69,6 +69,7 @@ export default function Home({ landingPageData }) {
           content="We are Golden Fitness Health Club aka Golden Gym in Ahmedabad, Gujarat. We are providing services for more than 10 years. We provide the best service to our customers. Our biggest aim is to provide satisfaction to our customers, we provide the best price and ensure best results, we include many types of equipment and facilities and many types of health plan and goals. We have more than 10000+ satisfied customers. Must visit our gym branch or book your place online and be part of our Golden Family."
         />
         <meta property="twitter:image" content="/img/intro-bg.jpg" />
+        <meta name="google-site-verification" content="y6LWhRvvj11vzwJ6VfgBq5dTisd3qq2DlUofro-nEGE" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
