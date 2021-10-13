@@ -162,7 +162,7 @@ const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021-2022 Golden Fitness Health Club . <br />Design by{' '}
+            &copy; 2021-2022 Golden Fitness Health Club . <br />Developed by{' '}
             <a href='http://instagram.com/beingsurjeet' rel='nofollow'>
               Surjeet Bhadauriya
             </a>
