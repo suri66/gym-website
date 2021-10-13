@@ -1,3 +1,5 @@
+import NextImage from 'next/image';
+
 const About = (props) => {
   return (
     <div id="about">
@@ -5,7 +7,7 @@ const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <NextImage src="img/about.jpg" className="img-responsive" alt="Golden Fitness Health Club About" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

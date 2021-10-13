@@ -1,3 +1,5 @@
+import NextImage from 'next/image';
+
 const Testimonials = (props) => {
   return (
     <div id='testimonials'>
@@ -12,10 +14,10 @@ const Testimonials = (props) => {
                   <div className='testimonial'>
                     <div className='testimonial-image'>
                       {' '}
-                      <img src={d.img} alt='' />{' '}
+                      <NextImage src={d.img} alt='' />{' '}
                     </div>
                     <div className='testimonial-content'>
-                      <p>"{d.text}"</p>
+                      <p>{d.text}&quot;</p>
                       <div className='testimonial-meta'> - {d.name} </div>
                     </div>
                   </div>
